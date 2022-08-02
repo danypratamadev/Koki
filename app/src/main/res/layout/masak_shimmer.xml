@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/cardKoki"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/_5sdp"
+    android:paddingBottom="@dimen/_5sdp"
+    android:paddingEnd="@dimen/_5sdp"
+    android:animateLayoutChanges="true"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+    <TextView
+        android:id="@+id/jmlPesan"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:text="2"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="bold"
+        android:textColor="@color/LoadColor"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/back_round"
+        android:backgroundTint="@color/LoadColor"
+        android:layout_marginStart="@dimen/_10sdp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/namaMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nasi Goreng Thail"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="bold"
+            android:textColor="@color/LoadColor"
+            android:background="@drawable/back_round"
+            android:backgroundTint="@color/LoadColor"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp"/>
+
+        <TextView
+            android:id="@+id/noteMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nasi Goreng"
+            android:textSize="@dimen/_6ssp"
+            android:textColor="@color/LoadColor"
+            android:fontFamily="@font/sans_ui"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:background="@drawable/back_round"
+            android:backgroundTint="@color/LoadColor"
+            android:paddingStart="@dimen/_7sdp"
+            android:paddingEnd="@dimen/_7sdp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/masak"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:text="Mulai"
+        android:textSize="@dimen/_8ssp"
+        android:textStyle="bold"
+        android:textColor="@color/LoadColor"
+        android:textAllCaps="false"
+        android:background="@drawable/back_button_green_stroke"
+        android:backgroundTint="@color/LoadColor"
+        android:stateListAnimator="@null"
+        android:layout_margin="@dimen/_5sdp" />
+
+</LinearLayout>
